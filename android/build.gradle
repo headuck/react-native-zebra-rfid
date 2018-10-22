@@ -1,0 +1,43 @@
+buildscript {
+    repositories {
+        jcenter()
+        google()
+        flatDir { dirs "libs" }
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:3.1.1'
+    }
+}
+
+repositories {
+    jcenter()
+    google()
+    flatDir { dirs "libs" }
+}
+
+apply plugin: 'com.android.library'
+
+android {
+    compileSdkVersion 27
+    buildToolsVersion "27.0.3"
+
+    defaultConfig {
+        minSdkVersion 19
+        targetSdkVersion 26
+        versionCode 1
+        versionName "1.0"
+
+    }
+
+}
+
+dependencies {
+    implementation fileTree(include: ["*.jar"], dir: 'libs')
+    implementation "com.android.support:appcompat-v7:27.1.0"
+    implementation "com.facebook.react:react-native:+"
+    implementation (name: 'API3_LIB-release-2.0.0.2', ext: 'aar')
+}
+
+repositories {
+    google()
+}
