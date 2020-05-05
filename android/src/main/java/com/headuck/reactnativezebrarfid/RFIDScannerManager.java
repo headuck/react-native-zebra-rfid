@@ -1,4 +1,4 @@
-package com.headuck.reactnativezebrarfid;
+package com.ivaldovinos.reactnativezebrarfid;
 
 import android.util.Log;
 
