@@ -8,7 +8,7 @@ React-native module for scanning RFID tags with Zebra RFD8500
 ### Install:
 Install the module
 ```bash
-npm install --save react-native-zebra-rfid
+npm install --save react-native-zebra-rfid-inovabiz
 ```
 
 Link native dependencies
@@ -31,8 +31,8 @@ allprojects {
             // All of React Native (JS, Obj-C sources, Android binaries) is installed from npm
             url "$rootDir/../node_modules/react-native/android"
         }
-        // Manually added for react-native-zebra-rfid
-        flatDir { dirs "$rootDir/../node_modules/react-native-zebra-rfid/android/libs" }
+        // Manually added for react-native-zebra-rfid-inovabiz
+        flatDir { dirs "$rootDir/../node_modules/react-native-zebra-rfid-inovabiz/android/libs" }
     }
 }
 ```
@@ -42,7 +42,7 @@ This module includes the Zebra RFID `API3_SDK_2.0.0.2.aar` file included. Depend
 ### Usage:
 
 ```javascript
-import RFIDScanner, { RFIDScannerEvent } from 'react-native-zebra-rfid';
+import RFIDScanner, { RFIDScannerEvent } from 'react-native-zebra-rfid-inovabiz';
 
 // Init and connect
 RFIDScanner.init();
