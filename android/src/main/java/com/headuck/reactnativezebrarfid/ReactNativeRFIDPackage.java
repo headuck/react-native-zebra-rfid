@@ -1,4 +1,4 @@
-package com.headuck.reactnativezebrarfid;
+package com.ivaldovinos.reactnativezebrarfid;
 
 import com.facebook.react.ReactPackage;
 import com.facebook.react.bridge.JavaScriptModule;

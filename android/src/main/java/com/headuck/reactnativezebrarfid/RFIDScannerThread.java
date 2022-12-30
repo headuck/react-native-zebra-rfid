@@ -1,4 +1,4 @@
-package com.headuck.reactnativezebrarfid;
+package com.ivaldovinos.reactnativezebrarfid;
 
 import android.content.Context;
 import android.util.Log;
@@ -45,6 +45,7 @@ public abstract class RFIDScannerThread extends Thread implements RfidEventsList
 
             ArrayList<ReaderDevice> availableRFIDReaderList = null;
             try {
+                readers = new Readers(this.context, ENUM_TRANSPORT.SERVICE_SERIAL);
                 availableRFIDReaderList = readers.GetAvailableRFIDReaderList();
                 Log.v("RFID", "Available number of reader : " + availableRFIDReaderList.size());
                 deviceList = availableRFIDReaderList;

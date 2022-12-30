@@ -1,9 +1,9 @@
 {
   "author": {
-    "name": "Headuck"
+    "name": "ivaldovinos"
   },
   "bugs": {
-    "url": "https://github.com/headuck/react-native-zebra-rfid/issues"
+    "url": "https://github.com/ivaldovinos/react-native-zebra-rfid/issues"
   },
   "dependencies": {},
   "devDependencies": {
@@ -16,7 +16,7 @@
   },
   "description": "React native zebra RIFD for Android",
   "directories": {},
-  "homepage": "https://github.com/headuck/react-native-zebra-rfid#readme",
+  "homepage": "https://github.com/ivaldovinos/react-native-zebra-rfid#readme",
   "keywords": [
     "React",
     "Native",
@@ -30,20 +30,20 @@
   "main": "index.js",
   "maintainers": [
     {
-      "name": "headuck",
-      "email": "headuck@no-reply.github.com"
+      "name": "ivaldovinos",
+      "email": "ivaldovinos@no-reply.github.com"
     }
   ],
-  "name": "react-native-zebra-rfid",
+  "name": "react-native-zebra-rfid-inovabiz",
   "optionalDependencies": {},
   "readme": "ERROR: No README data found!",
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/headuck/react-native-zebra-rfid.git"
+    "url": "git+ssh://git@github.com/ivaldovinos/react-native-zebra-rfid.git"
   },
   "scripts": {
     "lint": "eslint *.js **/*.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "version": "0.0.1"
+  "version": "0.0.3"
 }
